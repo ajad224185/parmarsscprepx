@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-QTnfLwEv.js";var t=e({ACCESS_KEY_EVENT:()=>r,getAccessKey:()=>i,setAccessKey:()=>a}),n=`vg_access_key`,r=`vg-access-key-changed`;function i(){if(typeof window>`u`)return``;try{return window.localStorage.getItem(n)||``}catch{return``}}function a(e){try{window.localStorage.setItem(n,e.trim())}catch{}}export{a as i,t as n,i as r,r as t};
